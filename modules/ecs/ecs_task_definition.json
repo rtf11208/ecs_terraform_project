@@ -1,0 +1,15 @@
+[
+  {
+    "essential": true,
+    "memory": 512,
+    "name": "worker",
+    "cpu": 2,
+    "image": "430273446463.dkr.ecr.us-east-1.amazonaws.com/ecs_demo:ronnieserver",
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "protcol": "tcp"
+      }
+    ]
+  }
+]
